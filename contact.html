@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+
+ ul{list-style-type:none;
+   margin:0;
+   padding:0;
+   overflow:hidden;
+   background-color:black;
+   }
+
+li{float:right;}
+
+li a{display:block;
+     color:white;
+     text-align:center;
+     padding:14px 16px;
+     text-decoration:none;}
+
+li a:hover{background-color:black;}
+
+
+a{color:white;
+  border:5px solid black;
+  padding:5px;
+  font-family:Algerian;
+  }
+  
+
+a:hover{
+    color: blue;
+    font-size:200%;
+    }
+    
+
+body{background-image:url("https://wallpapercave.com/wp/wp5190416.jpg");}
+
+
+
+
+
+div3 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+ float:right;
+
+}
+
+@keyframes example {
+  0%   {background-color:red; right:200px; top:100px;}
+  25%  {background-color:yellow; right:0px; top:0px;}
+  50%  {background-color:blue; right:0px; top:0px;}
+  75%  {background-color:green; right:200px; top:100px;}
+  100% {background-color:red; right:200px; top:100px;}
+}
+
+selection{border:1px solid red;
+          height:50vh;
+ 
+}
+.container{border: 10px solid gray;
+           max-width:700px;
+           margin: auto;
+           width:200%;
+           justify-content: center;
+           position: absolute;
+           right:0;
+           left:0;
+           top:0;
+           bottom:0;
+           height:90%;
+           z-index:-5;}
+
+
+input[type=text], select{
+  color:black;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+
+input[type=submit], select{
+  color: black;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  border:none;
+  cursor: pointer;
+  font-family:algerian;
+   display: inline-block;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+div {
+  border-radius: 5px;
+  background-color: grey;
+  padding: 20px;
+  float:left;
+  display: inline-block;
+}
+
+h1{
+  color:black;
+  font-family:Algerian;
+  font-size:400%;
+  text-align:center;}
+
+h1::hover{color:red;}
+
+p{color:black;
+  font-family:Algerian;
+  font-size:250%;
+  text-align:center;}
+
+p::hover{color:red;}
+
+.statement{color:black;
+           font-family:algerian;
+           font-size:200%;
+           text-align:left;}
+
+.fa-square-instagram{font-size:35px;
+                   color:white;}
+
+
+.fa-whatsapp{font-size:35px;
+                   color:white;}
+
+.fa-tiktok{font-size:35px;
+                   color:white;}
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<ul> 
+    <li><a href="C:/Users/pc/Desktop/html/HTML/index.html">HOME</a></li>
+    <li><a href="C:/Users/pc/Desktop/html/HTML/contact.html">CONTACT</a></li>
+    <li><a href="C:/Users/pc/Desktop/html/HTML/Cars.html">CARS</a></li>
+    <li><a href="C:/Users/pc/Desktop/html/HTML/about.html">ABOUT</a></li>
+    <li><a href="C:/Users/pc/Desktop/html/HTML/news.html">NEWS</a></li>
+</ul>
+
+
+<div2></div2>
+<div3></div3>
+
+
+<section>
+        <div class="container">
+        
+
+        
+
+<h1> CONTACT US </h1>
+
+<p> Lets start a conversation<Br>
+    Talk to us<br>      </p>
+
+
+<div>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="first name.."><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+     <label for="jtitle">Job title/s</label>
+    <input type="text" id="jtitle" name="jobtitle" placeholder="Your job title.."><br>
+    
+      <label for="Email"> Your Email</label>
+    <input type="text" id="Email" name="Email" placeholder="Your Email.."><br>
+
+    <label for="county">County currently</label>
+    <select id="county" name="county">
+      <option value="MOMBASA">MOMBASA</option>
+      <option value="NAKURU">NAKURU</option>
+      <option value="NAIROBI">NAIROBI</option>
+      <option value="KIAMBU">KIAMBU</option>
+      <option value="KAKAMEGA">KAKAMEGA</option>   
+    </select><br>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<p class="statement"> Ask how we can help you:<br>
+                    see our platform in action<br>
+                    for more help contact us by filling the form</p>
+<i class="fa-brands fa-square-instagram"></i> <i class="fa-brands fa-whatsapp"></i> <i class="fa-brands fa-tiktok"></i>
+
+</div>
+</selection>
+</body>
+</html>
